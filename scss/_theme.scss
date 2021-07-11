@@ -11,3 +11,44 @@ $purple:  #6931f9;
 // Navbar
 $navbar-dark-color:       $white;
 $navbar-dark-hover-color: $purple;
+
+// Buttons
+.btn {
+  border-width: 1px;
+  border-radius: 2px;
+}
+
+.btn-outline-light {
+  color: $light;
+}
+
+.btn-outline-light:hover {
+  color: $dark;
+}
+
+// Breadcrumbs
+.breadcrumb {
+  padding: 0.5rem 1rem;
+  background: $white;
+  border-radius: 0.25rem;
+}
+
+// Links
+.prismatic a {
+  text-decoration: none;
+}
+
+// Cards
+.card {
+  border: none;
+}
+
+.card .card-header {
+  border: none;
+  background: $purple;
+  color: $white;
+}
+
+.card .card-header a {
+  color: $white;
+}
