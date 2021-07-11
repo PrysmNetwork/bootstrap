@@ -5,6 +5,43 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+.btn {
+  border-width: 1px;
+  border-radius: 2px;
+}
+
+.btn-outline-light {
+  color: #f8f9fa;
+}
+
+.btn-outline-light:hover {
+  color: #212529;
+}
+
+.breadcrumb {
+  padding: 0.5rem 1rem;
+  background: #fff;
+  border-radius: 0.25rem;
+}
+
+.prismatic a {
+  text-decoration: none;
+}
+
+.card {
+  border: none;
+}
+
+.card .card-header {
+  border: none;
+  background: #6931f9;
+  color: #fff;
+}
+
+.card .card-header a {
+  color: #fff;
+}
+
 :root {
   --bs-blue: #255bfa;
   --bs-indigo: #6610f2;
