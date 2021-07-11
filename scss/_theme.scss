@@ -13,10 +13,9 @@ $navbar-dark-color:       $white;
 $navbar-dark-hover-color: $purple;
 
 // Buttons
-.btn {
-  border-width: 1px;
-  border-radius: 2px;
-}
+$btn-border-radius: 2px;
+$btn-border-radius-lg 2px;
+$btn-border-width: 1px;
 
 .btn-outline-light {
   color: $light;
@@ -27,21 +26,15 @@ $navbar-dark-hover-color: $purple;
 }
 
 // Breadcrumbs
-.breadcrumb {
-  padding: 0.5rem 1rem;
-  background: $white;
-  border-radius: 0.25rem;
-}
+$breadcrumb-padding-x: 1rem;
+$breadcrumb-padding-y: 0.5rem;
+$breadcrumb-border-radius: 0.25rem;
 
 // Links
-.prismatic a {
-  text-decoration: none;
-}
+$link-decoration: none;
 
 // Cards
-.card {
-  border: none;
-}
+$card-border-width: 0px;
 
 .card .card-header {
   border: none;
