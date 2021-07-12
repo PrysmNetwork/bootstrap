@@ -8,13 +8,14 @@ $dark:    #212529;
 $blue:    #255bfa;
 $purple:  #6931f9;
 
+// General
+$border-radius: 2px;
+
 // Navbar
 $navbar-dark-color:       $white;
 $navbar-dark-hover-color: $purple;
 
 // Buttons
-$btn-border-radius:     2px;
-$btn-border-radius-lg:  2px;
 $btn-border-width:      1px;
 
 .btn-outline-light {
